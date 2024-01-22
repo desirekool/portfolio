@@ -6,4 +6,8 @@
   .align-element {
     @apply mx-auto max-w-7xl px-8;
   }
+
+  .skill-icon {
+    @apply inline h-8 w-8 text-emerald-500;
+  }
 }

@@ -12,37 +12,37 @@ export const skills = [
   {
     id: nanoid(),
     title: 'HTML&CSS',
-    icon: <FaHtml5 className='h-16 w-16 text-emerald-500' />,
+    icon: <FaHtml5 className='inline h-8 w-8 text-emerald-500' />,
     text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
   },
   {
     id: nanoid(),
     title: 'Javascript',
-    icon: <FaJs className='h-16 w-16 text-emerald-500' />,
+    icon: <FaJs className='skill-icon' />,
     text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
   },
   {
     id: nanoid(),
     title: 'React',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
+    icon: <FaReact className='skill-icon' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
   {
     id: nanoid(),
     title: 'Java',
-    icon: <FaJava className='h-16 w-16 text-emerald-500' />,
+    icon: <FaJava className='skill-icon' />,
     text: 'Proficiency in Java, developing fullstack applications.',
   },
   {
     id: nanoid(),
     title: 'Jira',
-    icon: <FaJira className='h-16 w-16 text-emerald-500' />,
+    icon: <FaJira className='skill-icon' />,
     text: 'Proficiency in Jira Ticketing System',
   },
   {
     id: nanoid(),
     title: 'Git',
-    icon: <FaGit className='h-16 w-16 text-emerald-500' />,
+    icon: <FaGit className='skill-icon' />,
     text: 'Proficiency in Git, Managing Repositories, and deploying them to deployment.',
   },
 ];
